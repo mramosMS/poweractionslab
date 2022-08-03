@@ -6,11 +6,11 @@
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>1</isdefault>
-    <savedqueryid>{687f5459-1565-43ea-aea0-4318ac446ed6}</savedqueryid>
+    <savedqueryid>{ed5c7005-99b9-405c-8be2-b567f5d53817}</savedqueryid>
     <layoutxml>
-      <grid name="resultset" jump="almlab_name" select="1" icon="1" preview="1">
-        <row name="result" id="almlab_timeoffrequestid">
-          <cell name="almlab_name" width="300" />
+      <grid name="resultset" jump="user9_name" select="1" icon="1" preview="1">
+        <row name="result" id="user9_timeoffrequestid">
+          <cell name="user9_name" width="300" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -18,11 +18,11 @@
     <querytype>1</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical">
-        <entity name="almlab_timeoffrequest">
-          <attribute name="almlab_timeoffrequestid" />
-          <attribute name="almlab_name" />
+        <entity name="user9_timeoffrequest">
+          <attribute name="user9_timeoffrequestid" />
+          <attribute name="user9_name" />
           <attribute name="createdon" />
-          <order attribute="almlab_name" descending="false" />
+          <order attribute="user9_name" descending="false" />
         </entity>
       </fetch>
     </fetchxml>

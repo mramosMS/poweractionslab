@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <systemform>
-    <formid>{be7854c2-0ae2-431c-a3ab-02ae79df0659}</formid>
+    <formid>{f81e6348-2d65-4c72-88d8-324274d7cccd}</formid>
     <IntroducedVersion>1.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{229904b3-5e68-47b1-abc7-1b3256fe239b}" IsUserDefined="1">
+        <tab verticallayout="true" id="{698173f6-e9d8-49da-bf47-80e1f15ebc00}" IsUserDefined="1">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="General" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{98c784b5-db5d-457d-81cc-6ccb51791fc8}">
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d94e1f1d-cdee-49fe-86ca-4ffb1aeea9a2}">
                   <labels>
-                    <label description="GENERAL" languagecode="1033" />
+                    <label description="General" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{b879f8d1-49cf-4f11-b67e-8d54dc04a85f}">
+                      <cell id="{d0abc374-6f67-4502-b386-3fdc819d58e4}">
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="almlab_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="almlab_name" />
+                        <control id="user9_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="user9_name" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{f273a090-2bb2-4662-b255-bd3da158967b}">
+                      <cell id="{d97652f0-edb1-44d2-928a-22426b1d511e}">
                         <labels>
                           <label description="Owner" languagecode="1033" />
                         </labels>
@@ -48,5 +48,8 @@
     <LocalizedNames>
       <LocalizedName description="Information" languagecode="1033" />
     </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
   </systemform>
 </forms>

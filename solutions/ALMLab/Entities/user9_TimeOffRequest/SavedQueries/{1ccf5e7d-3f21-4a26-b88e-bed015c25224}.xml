@@ -5,12 +5,12 @@
     <CanBeDeleted>0</CanBeDeleted>
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
-    <isdefault>0</isdefault>
-    <savedqueryid>{7fb04702-a114-4e7a-9c1f-3f78704cce42}</savedqueryid>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1ccf5e7d-3f21-4a26-b88e-bed015c25224}</savedqueryid>
     <layoutxml>
-      <grid name="resultset" jump="almlab_name" select="1" icon="1" preview="1">
-        <row name="result" id="almlab_timeoffrequestid">
-          <cell name="almlab_name" width="300" />
+      <grid name="resultset" jump="user9_name" select="1" icon="1" preview="1">
+        <row name="result" id="user9_timeoffrequestid">
+          <cell name="user9_name" width="300" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -18,20 +18,20 @@
     <querytype>0</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical">
-        <entity name="almlab_timeoffrequest">
-          <attribute name="almlab_timeoffrequestid" />
-          <attribute name="almlab_name" />
+        <entity name="user9_timeoffrequest">
+          <attribute name="user9_timeoffrequestid" />
+          <attribute name="user9_name" />
           <attribute name="createdon" />
-          <order attribute="almlab_name" descending="false" />
+          <order attribute="user9_name" descending="false" />
           <filter type="and">
-            <condition attribute="statecode" operator="eq" value="1" />
+            <condition attribute="statecode" operator="eq" value="0" />
           </filter>
         </entity>
       </fetch>
     </fetchxml>
     <IntroducedVersion>1.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Inactive Time Off Requests" languagecode="1033" />
+      <LocalizedName description="Active Time Off Requests" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>
