@@ -13,9 +13,9 @@ jobs:
       #You can specify the solution name here
       solution_name: ALMLab
       #Update your values here
-      BUILD_ENVIRONMENT_URL: https://marlonramosmoscososenvironment.crm.dynamics.com/
-      PRODUCTION_ENVIRONMENT_URL: https://msdefault.crm.dynamics.com/
+      BUILD_ENVIRONMENT_URL: https://msdefault.crm.dynamics.com/
+      PRODUCTION_ENVIRONMENT_URL: https://org714fe920.crm.dynamics.com/
       CLIENT_ID: c78bcc36-181a-4ab7-afe8-40192f4e4147
-      TENANT_ID: 72f988bf-86f1-41af-91ab-2d7cd011db47      
+      TENANT_ID: 72f988bf-86f1-41af-91ab-2d7cd011db47
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
